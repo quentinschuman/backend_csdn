@@ -1,5 +1,6 @@
 # backend_csdn
 一个简单的springboot前后端交互demo，目前只写了页面跳转和简单的登录功能，有时间再来优化具体页面内容和数据库。<br>
+前端页面和脚本均为模板，来自网络。<br>
 数据库（springboot_backend）目前只有一张表（user）：<br>
 /*<br>
 Navicat MySQL Data Transfer<br>
