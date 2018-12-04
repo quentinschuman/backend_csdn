@@ -30,6 +30,7 @@ public class UserService {
             if (username.equals(one.getUsername())&&password.equals(one.getPassword())){
                 System.out.println("b=true");
                 b=true;
+                break;
             }else{
                 System.out.println("b=false");
                 b=false;
