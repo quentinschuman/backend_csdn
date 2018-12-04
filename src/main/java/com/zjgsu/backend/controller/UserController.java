@@ -34,8 +34,10 @@ public class UserController {
         System.out.println(username);
         System.out.println(password);
         if (b == true){
+            System.out.println("dashboard2");
             return "dashboard2";
         }else{
+            System.out.println("login");
             return "login";
         }
     }

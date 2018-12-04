@@ -22,15 +22,17 @@ public class UserService {
     public boolean find(String username,String password){
         boolean b= true;
         List<UserBean> all = userDao.findAll();
-        System.out.println(all);
+        System.out.println("ALL:" + all);
+        System.out.println("all.size()"+all.size());
         for (int i=0;i<all.size();i++){
             UserBean one = all.get(i);
+            System.out.println("i="+i);
             if (username.equals(one.getUsername())&&password.equals(one.getPassword())){
+                System.out.println("b=true");
                 b=true;
-                break;
             }else{
+                System.out.println("b=false");
                 b=false;
-                break;
             }
         }
         return b;
