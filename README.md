@@ -34,3 +34,8 @@ CREATE TABLE `user` (<br>
 -- Records of user<br>
 -- ----------------------------<br>
 INSERT INTO `user` VALUES ('1', 'admin', 'admin');<br>
+
+## 切换环境的配置文件
+```$xslt
+> java -jar backend-0.0.1-SNAPSHOT.jar --spring.profiles.active=[dev/test]
+```
